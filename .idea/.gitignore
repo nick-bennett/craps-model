@@ -1,5 +1,5 @@
 # Default ignored files
-#/codeStyles/
+/codeStyles/
 /uiDesigner.xml
-#/vcs.xml
+/vcs.xml
 /workspace.xml
