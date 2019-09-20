@@ -21,9 +21,9 @@ public class Main {
       round = game.play();
     }
     if (rounds == 1) {
-      System.out.println("Rolls");
+      System.out.println("Rolls:");
       for (Roll roll : round.getRolls()) {
-        System.out.printf("\t%s%n", roll);
+        System.out.printf("\t%s = %2d%n", roll, roll.getValue());
       }
       System.out.printf("Outcome: %s%n", round.getState());
     } else {
