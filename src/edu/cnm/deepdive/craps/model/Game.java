@@ -4,6 +4,9 @@ import java.util.Random;
 
 public class Game {
 
+  // TODO Add Round class that encapsulates the list of rolls and final state of a round of play.
+  //  The play() method should return an instance of the Round class.
+
   private Tally tally;
   private Random rng;
 
@@ -41,7 +44,7 @@ public class Game {
   public int getPlays() {
     return tally.getPlays();
   }
-  
+
   public double getPercentage() {
     return tally.getPercentage();
   }
@@ -121,7 +124,7 @@ public class Game {
     }
 
     public int[] getDice() {
-      return new int[] {die1, die2};
+      return new int[]{die1, die2};
     }
 
     public int getValue() {
@@ -165,4 +168,5 @@ public class Game {
     }
 
   }
+
 }
